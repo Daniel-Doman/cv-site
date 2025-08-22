@@ -1,0 +1,144 @@
+:root {
+  --width-size: 1000px;
+}
+
+body {
+  background-color: gray;
+  margin: 0 auto;
+  width: var(--width-size);
+  font-family: "Rubik", sans-serif;
+  color: #02225f;
+}
+
+main {
+  width: var(--width-size);
+  height: 1323px;
+  /* background-color: white; */
+  /* padding: 120px 0 120px 0; */
+  /* box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3); */
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("img/cv-back.jpg");
+  width: var(--width-size);
+  height: 250px;
+  position: relative;
+}
+
+header #name {
+  position: absolute;
+  color: white;
+  top: 60px;
+  left: 400px;
+  font-size: 56px;
+  font-weight: 700;
+  word-spacing: 5px;
+}
+
+#position {
+  position: absolute;
+  color: white;
+  top: 130px;
+  left: 430px;
+  font-size: 30px;
+  word-spacing: 5px;
+}
+
+#image img {
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  border-radius: 100%;
+  border: 5px solid #02225f;
+}
+
+#left-box {
+  background-color: rgb(189, 186, 186);
+  width: 339px;
+  height: 1164px;
+  /* border-right: 1px solid rgb(163, 162, 162); */
+  float: left;
+  padding: 0 30px 0 30px;
+}
+
+#contact {
+  margin-top: 150px;
+}
+
+.sections {
+  font-size: 32px;
+  font-weight: 700;
+  width: 100%;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #02225f;
+}
+
+.socials {
+  margin-top: 12px;
+}
+
+.link {
+  text-decoration: none;
+  color: #02225f;
+  font-size: 20px;
+}
+
+.icons {
+  margin-right: 15px;
+}
+
+#skills {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  padding: 0;
+}
+
+li {
+  line-height: 1.35;
+  font-size: 20px;
+}
+
+#right-box {
+  background-color: white;
+  width: 540px;
+  height: 1164px;
+  float: left;
+  padding: 0 30px 0 30px;
+}
+
+#about-me {
+  margin-top: 30px;
+}
+
+#about-me p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.header1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.header2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.header3 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
