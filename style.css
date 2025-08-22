@@ -68,7 +68,7 @@ header #name {
 }
 
 .sections {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
   width: 100%;
   letter-spacing: 2px;
@@ -93,13 +93,13 @@ header #name {
   margin-top: 20px;
 }
 
-ul {
-  list-style-type: circle;
+#left-box ul {
+  list-style-type: disc;
   margin-left: 20px;
   padding: 0;
 }
 
-li {
+#left-box li {
   line-height: 1.35;
   font-size: 20px;
 }
@@ -110,6 +110,17 @@ li {
   height: 1164px;
   float: left;
   padding: 0 30px 0 30px;
+}
+
+#right-box ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+#right-box li {
+  line-height: 1.35;
+  font-size: 18px;
 }
 
 #about-me {
@@ -129,6 +140,13 @@ li {
 }
 
 .header2 {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.header3 {
   font-size: 14px;
   font-weight: 400;
   margin: 10px 0;
@@ -136,7 +154,7 @@ li {
   letter-spacing: 1px;
 }
 
-.header3 {
+.header4 {
   font-size: 14px;
   font-weight: 400;
   margin: 10px 0;
